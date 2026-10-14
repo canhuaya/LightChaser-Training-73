@@ -9,7 +9,7 @@ int main()
        *(p+i)=5*i;
        sum+=*(p+i);
     }
-    int ave=sum/5;
+    int ave=sum/5;//也会有不是整数的部分
     printf("均值为%d",ave);
     free(p);
     return 0;
